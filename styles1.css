@@ -1,0 +1,143 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #ff5722; /* Bright orange */
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #140101;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section styling */
+section {
+    padding: 2rem;
+    margin-top: 60px; /* To avoid overlap with fixed header */
+    border-radius: 8px;
+}
+
+#home {
+    background-color: #e0f7fa; /* Light cyan */
+    text-align: center;
+}
+
+#about {
+    background-color: #f1f8e9; /* Light lime */
+}
+
+#academics {
+    background-color: #fffde7; /* Light yellow */
+}
+
+#skills {
+    background-color: #fce4ec; /* Light pink */
+}
+
+#contact {
+    background-color: #e8f5e9; /* Light green */
+}
+
+/* Additional styling */
+.intro h1 {
+    margin: 0;
+    color: #d32f2f; /* Dark red */
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #1976d2; /* Bright blue */
+}
+
+/* List styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f4f4f4;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+
+a {
+    color: #1976d2; /* Bright blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.5rem;
+    background: #ff5722; /* Bright orange */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #e64a19; /* Darker orange */
+}
+
+footer {
+    background: #ff5722; /* Bright orange */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
